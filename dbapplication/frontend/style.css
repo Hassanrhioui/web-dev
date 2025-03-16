@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #000 !important;
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    height: auto;
+    width: 120px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Motivational Frame */
+.motivational-frame {
+    background-color: #333;
+    padding: 80px 0;
+}
+
+.motivational-frame h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.motivational-frame p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.motivational-frame .btn-light {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.motivational-frame .btn-light:hover {
+    background-color: #f1f1f1;
+}
+
+/* Cards with Shadow */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #000;
+    font-weight: bold;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Update Form */
+.update-form {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+}
+
+.update-form.active {
+    display: block; /* Show when active */
+}
